@@ -2,17 +2,17 @@
 # - pld init script
 # - apply patch to kernel
 # - BR, R
+# - doc
 #
-Summary:	-
-Summary(pl.UTF-8):	-
+Summary:	ttyrpld - a multi-os kernel-level tty logger
 Name:		ttyrpld
 Version:	2.52
 Release:	0.1
-License:	- (enter GPL/GPL v2/GPL v3/LGPL/BSD/BSD-like/other license name here)
+License:	GPL/GPL v2/GPL v3/CDDL/BSD/LGPL v2/LGPL v3
 Group:		Applications
 Source0:	http://dl.sourceforge.net/ttyrpld/%{name}-%{version}.tar.bz2
 # Source0-md5:	322674047f27652702ba35a196ca3c74
-URL:		-
+URL:		http://ttyrpld.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	libHX-devel >= 1.25
 BuildRequires:	libtool
